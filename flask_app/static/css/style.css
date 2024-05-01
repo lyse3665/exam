@@ -1,0 +1,74 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Login and Registration */
+/* Title text */
+.title_txt {
+    font-size: 100px;
+    text-shadow: 2px 2px black;
+    color: black;
+
+}
+
+/* Login and Registration subtitle text */
+.log_reg_txt {
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    color: black;
+
+}
+
+/* Login and Registration field text */
+.field_txt {
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    color: black;
+
+}
+
+/* Registration and Login background */
+.fixed-bg {
+    /* The background image */
+    background-image: url("/static/img/reg_and_log.png");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+/* End of Login and Registration */
+
+
+/* Action links */
+.act_links {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Recipes table text */
+.table_txt {
+    font-size: larger;
+    /* font-family: 'Dancing Script', cursive; */
+    text-shadow: 2px 2px black;
+    color: whitesmoke;
+
+}
+
+/* Yes Radio button */
+.yes_rb {
+    margin-right: 25px;
+}
